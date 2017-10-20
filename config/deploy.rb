@@ -26,5 +26,6 @@ append :linked_dirs, *%w(
 set :keep_releases, 5
 
 # Puma config
+# https://github.com/seuros/capistrano-puma#other-configs
 set :puma_init_active_record, true
 set :puma_preload_app, true
